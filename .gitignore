@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+.venv.bak/
+
+# MediaPipe/ OpenCV: nada específico que ignorar, solo mantenemos limpio el entorno general
+
+# PyInstaller
+*.spec
+
+# Logs y debugging
+*.log
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+hypothesis/
+
+# IDEs / editores
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Entornos de análisis estático
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Variables de entorno / claves
+.env
+.env.*
